@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2663E446-4E4E-88E5-6EB4-98F5F895FD02" name="Preguntas">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 03:12:33 UTC</createdTime>
+<generatorID>B5175D07-7336-F140-F81F-3164DE023A18</generatorID>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="48B6C9AD-26ED-719F-2913-EE1956AA89E5">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 03:12:33 UTC</createdTime>
+<generatorID>61889FB0-DD59-6DE6-44BB-99CCB60C8DF4</generatorID>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enunciado" id="21CE101A-AC6E-D15B-8A84-5E9B571EAE67">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 03:12:33 UTC</createdTime>
+<generatorID>41854CD6-B397-84B3-E2B5-575B0EB2656C</generatorID>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntaje" id="AFA00988-EBCD-B3A8-2C86-1C7DD3A5AEDF">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 03:12:33 UTC</createdTime>
+<generatorID>5F77011A-5E61-77FB-1656-271BEBF7654E</generatorID>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Test_id" id="1C6878F2-FF9D-AAE2-A284-1A5CB75F1B66">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 03:12:33 UTC</createdTime>
+<generatorID>F58F371C-B1D3-EFF2-C7B5-D194B342BBBA</generatorID>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20D6E520-CAD0-0A80-3293-ACE324EE5E90" referredColumn="2F8B31ED-28B2-CE7A-14E8-DBF0C811151B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2E95D17-6304-D91D-7EC8-35AF3DA8B9D3" name="Preguntas_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 03:12:33 UTC</createdTime>
+<generatorID>BF84A1F4-34C0-8C99-3898-A594501F10BF</generatorID>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48B6C9AD-26ED-719F-2913-EE1956AA89E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6946DD0-AE54-096A-46CC-88ED15FB77F6" name="Preguntas_id_UN">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 03:12:33 UTC</createdTime>
+<generatorID>4BABB77A-6E8D-F855-7D1F-5CE508B01E8D</generatorID>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48B6C9AD-26ED-719F-2913-EE1956AA89E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A73D2E29-F8D1-954C-6CE1-CEE78C8CDF14" name="Preguntas_Test_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 03:12:33 UTC</createdTime>
+<generatorID>85F78587-B342-8C46-4E1C-E765251E75DB</generatorID>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C6878F2-FF9D-AAE2-A284-1A5CB75F1B66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="970E17E2-A5EC-D81F-4B82-40F76F8167ED" name="Curso">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 03:12:33 UTC</createdTime>
+<generatorID>99C3C7F7-D4B5-A2CB-60CB-A8A7AAEF0367</generatorID>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="EC8CE217-5D86-37EE-7F0B-7D05D7746BF6">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 03:12:33 UTC</createdTime>
+<generatorID>EBC9F971-327B-9595-84FC-A259397425B6</generatorID>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="851601FA-5CB3-2CDA-0607-461FD8D7EA35">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 03:12:33 UTC</createdTime>
+<generatorID>84B07675-65C3-5D49-09B9-9D14ACFC5056</generatorID>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5ECBB27-D8A9-0EF8-36FC-F79BAA234FC9" name="Curso_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 03:12:33 UTC</createdTime>
+<generatorID>821B230C-4EE4-C46F-7D85-D3C9934720A9</generatorID>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC8CE217-5D86-37EE-7F0B-7D05D7746BF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCC68F8F-1FB2-3AB9-30C2-8B2D53887528" name="Curso_Id_UN">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 03:12:33 UTC</createdTime>
+<generatorID>3BF59F34-EFF3-B711-854B-983DAB6DCFE6</generatorID>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC8CE217-5D86-37EE-7F0B-7D05D7746BF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

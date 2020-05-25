@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99C3C7F7-D4B5-A2CB-60CB-A8A7AAEF0367" name="Curso">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 02:11:23 UTC</createdTime>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<engineerTo>
+<item key="D7C08A84-BE6F-BF6F-BD25-D5687EC56AA9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="EBC9F971-327B-9595-84FC-A259397425B6">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 02:11:44 UTC</createdTime>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<engineerTo>
+<item key="D7C08A84-BE6F-BF6F-BD25-D5687EC56AA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="84B07675-65C3-5D49-09B9-9D14ACFC5056">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 02:12:19 UTC</createdTime>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<engineerTo>
+<item key="D7C08A84-BE6F-BF6F-BD25-D5687EC56AA9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3BF59F34-EFF3-B711-854B-983DAB6DCFE6" name="id_curso">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 02:16:56 UTC</createdTime>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<engineerTo>
+<item key="D7C08A84-BE6F-BF6F-BD25-D5687EC56AA9" value="true"/>
+</engineerTo>
+<newElementsIDs>EBC9F971-327B-9595-84FC-A259397425B6</newElementsIDs>
+<usedAttributes>
+<attributeRef>EBC9F971-327B-9595-84FC-A259397425B6</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="821B230C-4EE4-C46F-7D85-D3C9934720A9" name="Curso PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 03:09:16 UTC</createdTime>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<engineerTo>
+<item key="D7C08A84-BE6F-BF6F-BD25-D5687EC56AA9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EBC9F971-327B-9595-84FC-A259397425B6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

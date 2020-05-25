@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80BA7F8A-D243-E297-B11D-E91DB0E7E9C1" name="Unidad">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 02:32:32 UTC</createdTime>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<engineerTo>
+<item key="D7C08A84-BE6F-BF6F-BD25-D5687EC56AA9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="52FF20C8-5C7D-7D56-588E-453B6E6A3AC2">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 02:32:37 UTC</createdTime>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<engineerTo>
+<item key="D7C08A84-BE6F-BF6F-BD25-D5687EC56AA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="410FC75C-0A15-7A4F-B82D-D650BB48B714">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 02:33:14 UTC</createdTime>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<engineerTo>
+<item key="D7C08A84-BE6F-BF6F-BD25-D5687EC56AA9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5679ED43-C46B-9518-5AB3-FEA82C846F9A" name="Key_1">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 02:33:55 UTC</createdTime>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<engineerTo>
+<item key="D7C08A84-BE6F-BF6F-BD25-D5687EC56AA9" value="true"/>
+</engineerTo>
+<newElementsIDs>52FF20C8-5C7D-7D56-588E-453B6E6A3AC2</newElementsIDs>
+<usedAttributes>
+<attributeRef>52FF20C8-5C7D-7D56-588E-453B6E6A3AC2</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="ADEC7240-702F-59F7-4D33-3FAEA0EFC554" name="Unidad PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-05-25 03:09:18 UTC</createdTime>
+<ownerDesignName>Prueba 2</ownerDesignName>
+<engineerTo>
+<item key="D7C08A84-BE6F-BF6F-BD25-D5687EC56AA9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>52FF20C8-5C7D-7D56-588E-453B6E6A3AC2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
